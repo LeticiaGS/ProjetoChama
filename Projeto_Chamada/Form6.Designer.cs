@@ -101,6 +101,7 @@ namespace Projeto_Chamada
             this.btnGerarPdf.TabIndex = 5;
             this.btnGerarPdf.Text = "Gerar PDF";
             this.btnGerarPdf.UseVisualStyleBackColor = true;
+            this.btnGerarPdf.Click += new System.EventHandler(this.btnGerarPdf_Click);
             // 
             // dataGridView1
             // 
